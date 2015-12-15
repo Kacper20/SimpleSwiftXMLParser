@@ -1,1 +1,357 @@
-</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed gd:kind="customsearch#search" xmlns="http://www.w3.org/2005/Atom" xmlns:cse="http://schemas.google.com/cseapi/2010" xmlns:gd="http://schemas.google.com/g/2005" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+    <title>Google Custom Search - Poland</title>
+    <id>tag:www.googleapis.com,2010-09-29:/customsearch/v1?q=Poland&amp;cx=001663399765669867942:y9ew9z4ysby&amp;num=10&amp;start=1&amp;safe=off</id>
+    <author>
+        <name>TKOM - Google Custom Search</name>
+    </author>
+    <updated>1970-01-17T18:50:08.303Z</updated>
+    <opensearch:Url type="application/atom+xml" template="https://www.googleapis.com/customsearch/v1?q={searchTerms}&amp;num={count?}&amp;start={startIndex?}&amp;lr={language?}&amp;safe={cse:safe?}&amp;cx={cse:cx?}&amp;cref={cse:cref?}&amp;sort={cse:sort?}&amp;filter={cse:filter?}&amp;gl={cse:gl?}&amp;cr={cse:cr?}}&amp;googlehost={cse:googleHost?}&amp;c2coff={?cse:disableCnTwTranslation}&amp;hq={cse:hq?}&amp;hl={cse:hl?}&amp;siteSearch={cse:siteSearch?}&amp;siteSearchFilter={cse:siteSearchFilter?}&amp;exactTerms={cse:exactTerms?}&amp;excludeTerms={cse:excludeTerms?}&amp;linkSite={cse:linkSite?}&amp;orTerms={cse:orTerms?}&amp;relatedSite={cse:relatedSite?}&amp;dateRestrict={cse:dateRestrict?}&amp;lowRange={cse:lowRange?}&amp;highRange={cse:highRange?}&amp;searchType={cse:searchType?}&amp;fileType={cse:fileType?}&amp;rights={cse:rights?}&amp;imgsz={cse:imgsz?}&amp;imgtype={cse:imgtype?}&amp;imgc={cse:imgc?}&amp;imgcolor={cse:imgcolor?}&amp;alt=atom"/>
+    <opensearch:Query role="request" title="Google Custom Search - Poland" totalResults="58900000" searchTerms="Poland" count="10" startIndex="1" inputEncoding="utf8" outputEncoding="utf8" cse:safe="off" cse:cx="001663399765669867942:y9ew9z4ysby"/>
+    <opensearch:Query role="cse:nextPage" title="Google Custom Search - Poland" totalResults="58900000" searchTerms="Poland" count="10" startIndex="11" inputEncoding="utf8" outputEncoding="utf8" cse:safe="off" cse:cx="001663399765669867942:y9ew9z4ysby"/>
+    <opensearch:totalResults>58900000</opensearch:totalResults>
+    <opensearch:startIndex>1</opensearch:startIndex>
+    <cse:context title="TKOM"/>
+    <cse:searchInformation>
+        <cse:searchTime>0.676039</cse:searchTime>
+        <cse:formattedSearchTime>0.68</cse:formattedSearchTime>
+        <cse:totalResults>58900000</cse:totalResults>
+        <cse:formattedTotalResults>58,900,000</cse:formattedTotalResults>
+    </cse:searchInformation>
+    <cse:spelling>
+        <cse:correctedQuery type="html"/>
+    </cse:spelling>
+    <entry gd:kind="customsearch#result">
+        <id>https://en.wikipedia.org/wiki/Poland</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt; - Wikipedia, the free encyclopedia</title>
+        <link href="https://en.wikipedia.org/wiki/Poland" title="en.wikipedia.org"/>
+        <summary type="html">The source of the name &lt;b&gt;Poland&lt;/b&gt; and the ethnonyms for the Poles include &lt;br&gt;
+            endonyms (the way Polish people refer to themselves and their country) and &lt;br&gt;
+            exonyms&amp;nbsp;...</summary>
+        <cse:formattedUrl type="html">https://en.wikipedia.org/wiki/&lt;b&gt;Poland&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="hcard">
+                <cse:Attribute name="fn" value="Republic of Poland"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/EU-Poland.svg/250px-EU-Poland.svg.png"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="168"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKgX1cGy-J4YjKhooJdPyojvGOHlFVF3DLRnA2AwAz-kvrr_Y8q005UUc"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>https://www.cia.gov/library/publications/the-world-factbook/geos/pl.html</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt;</title>
+        <link href="https://www.cia.gov/library/publications/the-world-factbook/geos/pl.html" title="www.cia.gov"/>
+        <summary type="html">Features map and brief descriptions of the geography, people, government, &lt;br&gt;
+            economy, communications, transportation, military and transnational issues.</summary>
+        <cse:cacheId>AuZ7wZ5GJUkJ</cse:cacheId>
+        <cse:formattedUrl type="html">https://www.cia.gov/library/publications/the-world.../geos/pl.html</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="viewport" value="width=device-width"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.lonelyplanet.com/poland</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt; - Lonely Planet</title>
+        <link href="http://www.lonelyplanet.com/poland" title="www.lonelyplanet.com"/>
+        <summary type="html">&lt;b&gt;Poland&amp;#39;s&lt;/b&gt; roots go back to the turn of the first millennium, leaving a thousand &lt;br&gt;
+            years of twists and turns and kings and castles to explore. WWII history buffs are &lt;br&gt;
+            well&amp;nbsp;...</summary>
+        <cse:cacheId>hNFkQKAw_psJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.lonelyplanet.com/&lt;b&gt;poland&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="sailthru.date" value="2015-12-14 20:43:59 +0000"/>
+                <cse:Attribute name="sailthru.tags" value="Europe, Poland, architecture-and-buildings, art-and-literature, cycling, food-and-drink, history-heritage-and-tradition, off-the-beaten-track, parks-and-reserves, walking-and-trekking, wildlife-and-nature, winter-sports"/>
+                <cse:Attribute name="title" value="Poland - Lonely Planet"/>
+                <cse:Attribute name="twitter:card" value="summary_large_image"/>
+                <cse:Attribute name="twitter:site" value="@lonelyplanet"/>
+                <cse:Attribute name="twitter:title" value="Poland - Lonely Planet"/>
+                <cse:Attribute name="twitter:description" value="Chic medieval hot spots like Kraków and Gdańsk vie with energetic Warsaw for your urban attention. Outside the cities, woods, rivers, lakes and..."/>
+                <cse:Attribute name="og:site_name" value="Lonely Planet"/>
+                <cse:Attribute name="og:title" value="Poland - Lonely Planet"/>
+                <cse:Attribute name="og:description" value="Chic medieval hot spots like Kraków and Gdańsk vie with energetic Warsaw for your urban attention. Outside the cities, woods, rivers, lakes and..."/>
+                <cse:Attribute name="og:url" value="http://www.lonelyplanet.com/poland"/>
+                <cse:Attribute name="og:type" value="website"/>
+                <cse:Attribute name="author" value="Lonely Planet"/>
+                <cse:Attribute name="theme-color" value="#1D508D"/>
+                <cse:Attribute name="fb:app_id" value="111537044496"/>
+                <cse:Attribute name="viewport" value="width=device-width, initial-scale=1"/>
+                <cse:Attribute name="csrf-param" value="authenticity_token"/>
+                <cse:Attribute name="csrf-token" value="4sB+0xmCAq3vMe3fYklcRrX2qUl66cX9GYDrRs1hmiY="/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="name" value="View Basket"/>
+                <cse:Attribute name="url" value="Sign in"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Search"/>
+                <cse:Attribute name="name" value="Search"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Highlights"/>
+                <cse:Attribute name="name" value="Highlights"/>
+            </cse:DataObject>
+            <cse:DataObject type="breadcrumb">
+                <cse:Attribute name="url" value="Europe"/>
+                <cse:Attribute name="title" value="Europe"/>
+            </cse:DataObject>
+            <cse:DataObject type="breadcrumb">
+                <cse:Attribute name="url" value="Central Europe"/>
+                <cse:Attribute name="title" value="Central Europe"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Destinations"/>
+                <cse:Attribute name="name" value="Destinations"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="About us"/>
+                <cse:Attribute name="name" value="About us"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Twitter"/>
+                <cse:Attribute name="name" value="Twitter"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://images-resrc.staticlp.com/C=W5141,H1933,X0,Y110/S=W798,H300/O=80/http://media.lonelyplanet.com/mastheads/74824745.jpg"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="366"/>
+                <cse:Attribute name="height" value="137"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmE4eJen1Ra8h8osBYv8gg0RGQVEKU98KA0w3mZR_Z9TKBiF6XmEcNq5c"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.poland.travel/</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">Tourist information about &lt;b&gt;Poland&lt;/b&gt; - accommodation and tourist &lt;b&gt;...&lt;/b&gt;</title>
+        <link href="http://www.poland.travel/" title="www.poland.travel"/>
+        <summary type="html">&lt;b&gt;Poland&lt;/b&gt;.travel useful information about accommodation and attractions in &lt;b&gt;Poland&lt;/b&gt;: &lt;br&gt;
+            cities, regions, Heritage, Nature, Active Tourism, events in &lt;b&gt;Poland&lt;/b&gt;.</summary>
+        <cse:cacheId>unB6L6ub3vAJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.&lt;b&gt;poland&lt;/b&gt;.travel/</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="p:domain_verify" value="758dfb19b6405f9e7cdbc22a11e8d20a"/>
+                <cse:Attribute name="title" value="Tourist information about Poland -  accommodation and tourist attractions: cities, regions, monuments in Poland =&gt; Poland.Travel - Poland&apos;s Official Travel Website"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://www.poland.travel/en-us/images/POIT_NYC/WYDlog.jpg"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="275"/>
+                <cse:Attribute name="height" value="183"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxXq-6LpEeCvlzK8Ohda7F1mtFBU9jYzWbZ1sNCvNHLXJ0DETlLefFALk"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.state.gov/r/pa/ei/bgn/2875.htm</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt;</title>
+        <link href="http://www.state.gov/r/pa/ei/bgn/2875.htm" title="www.state.gov"/>
+        <summary type="html">Sep 14, 2015 &lt;b&gt;...&lt;/b&gt; U.S.-&lt;b&gt;POLAND&lt;/b&gt; RELATIONS. &lt;b&gt;Poland&lt;/b&gt; is a stalwart ally in Central Europe and one &lt;br&gt;
+            of the United States&amp;#39; strongest partners on the continent in&amp;nbsp;...</summary>
+        <cse:cacheId>1o29FLnzmG4J</cse:cacheId>
+        <cse:formattedUrl type="html">www.state.gov/r/pa/ei/bgn/2875.htm</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="dc_title" value="Poland"/>
+                <cse:Attribute name="dc_date" value="2015-09-14"/>
+                <cse:Attribute name="dc_subject" value="europe and eurasia|poland|country information|country studies|"/>
+                <cse:Attribute name="dc_subject2" value="europe and eurasia|poland|country information|country studies|"/>
+                <cse:Attribute name="dc_type_publication" value="Press Release|Fact Sheet"/>
+                <cse:Attribute name="dc_type_publication2" value="Press Release|Fact Sheet"/>
+                <cse:Attribute name="dc_type" value="Press Release|Fact Sheet"/>
+                <cse:Attribute name="dc_coverage" value="europe and eurasia|poland|"/>
+                <cse:Attribute name="dc_coverage2" value="europe and eurasia|poland|"/>
+                <cse:Attribute name="dc_description" value="Fact Sheet on US bilateral relations with Poland"/>
+                <cse:Attribute name="dc_identifier" value="http://www.state.gov/r/pa/ei/bgn/2875.htm"/>
+                <cse:Attribute name="dc_creator" value="Department Of State. The Office of Website Management, Bureau of Public Affairs."/>
+                <cse:Attribute name="dc_publisher" value="Department Of State. The Office of Website Management, Bureau of Public Affairs."/>
+                <cse:Attribute name="dc_language" value="en"/>
+                <cse:Attribute name="dc_format" value="document,html"/>
+                <cse:Attribute name="dc_rights" value="http://www.state.gov/r/pa/ei/rls/dos/3797.htm"/>
+                <cse:Attribute name="og:title" value="Poland"/>
+                <cse:Attribute name="og:type" value="article"/>
+                <cse:Attribute name="og:url" value="http://www.state.gov/r/pa/ei/bgn/2875.htm"/>
+                <cse:Attribute name="og:image" value="http://www.state.gov/images/2014/dos-seal-256x256.png"/>
+                <cse:Attribute name="og:site_name" value="U.S. Department of State"/>
+                <cse:Attribute name="domain" value="www2.state.gov"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://www.state.gov/images/2014/dos-seal-256x256.png"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.poland.travel/en/</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">Welcome to &lt;b&gt;Poland&lt;/b&gt;! - &lt;b&gt;Poland&amp;#39;s&lt;/b&gt; Official Travel Website - &lt;b&gt;Poland&amp;#39;s&lt;/b&gt; &lt;b&gt;...&lt;/b&gt;</title>
+        <link href="http://www.poland.travel/en/" title="www.poland.travel"/>
+        <summary type="html">Any time of year is a great time to visit &lt;b&gt;Poland&lt;/b&gt;, but there is something wonderful ... &lt;br&gt;
+            &lt;b&gt;Poland&lt;/b&gt; is a country rich in tradition where many holidays are celebrated with&amp;nbsp;...</summary>
+        <cse:cacheId>dEBgyCHCXe0J</cse:cacheId>
+        <cse:formattedUrl type="html">www.&lt;b&gt;poland&lt;/b&gt;.travel/en/</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="p:domain_verify" value="758dfb19b6405f9e7cdbc22a11e8d20a"/>
+                <cse:Attribute name="title" value="Welcome to Poland! - Poland&apos;s Official Travel Website - Poland&apos;s Official Travel Website"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://www.poland.travel/en/images/POIT_NYC/PL_gingerbread_from_Torunstronka.jpg"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="132"/>
+                <cse:Attribute name="height" value="72"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSImrmGCcZwPVgf1Pmhh0tDUv8Tpfs6blTKAFUMhoBLzuPbee_gnhxK4GA"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://europa.eu/about-eu/countries/member-countries/poland/index_en.htm</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">EUROPA - &lt;b&gt;Poland&lt;/b&gt; in the EU</title>
+        <link href="http://europa.eu/about-eu/countries/member-countries/poland/index_en.htm" title="europa.eu"/>
+        <summary type="html">Oct 26, 2015 &lt;b&gt;...&lt;/b&gt; &lt;b&gt;Poland&lt;/b&gt; is a country in central Europe, bordered by Germany to the west, the &lt;br&gt;
+            Czech Republic and Slovakia to the south, Ukraine and Belarus to&amp;nbsp;...</summary>
+        <cse:cacheId>GJ4Mw4uSw4IJ</cse:cacheId>
+        <cse:formattedUrl type="html">europa.eu/about-eu/countries/member.../&lt;b&gt;poland&lt;/b&gt;/index_en.htm</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="reference" value="COMM/EUROPA/ABOUT-EU/COUNTRIES/MEMBER-COUNTRIES/POLAND/EN"/>
+                <cse:Attribute name="creator" value="COMM/COMM/A05"/>
+                <cse:Attribute name="date" value="11/05/2010"/>
+                <cse:Attribute name="classification" value="16000"/>
+                <cse:Attribute name="viewport" value="width=device-width, initial-scale=1.0"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://europa.eu/about-eu/countries/images/maps/map_poland.png"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="218"/>
+                <cse:Attribute name="height" value="195"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBrFOQNQIHGzMhfIgao3g5XjCdeFg_EJDHQ-OYLe57TCVsIuB29qeqabc"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://wikitravel.org/en/Poland</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt; travel guide - Wikitravel</title>
+        <link href="http://wikitravel.org/en/Poland" title="wikitravel.org"/>
+        <summary type="html">Open source travel guide to &lt;b&gt;Poland&lt;/b&gt;, featuring up-to-date information on &lt;br&gt;
+            attractions, hotels, restaurants, nightlife, travel tips and more. Free and reliable &lt;br&gt;
+            advice&amp;nbsp;...</summary>
+        <cse:cacheId>kql7owropAMJ</cse:cacheId>
+        <cse:formattedUrl type="html">wikitravel.org/en/&lt;b&gt;Poland&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://wikitravel.org/upload/shared//thumb/f/f7/Krakau_Markt.jpg/250px-Krakau_Markt.jpg"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="150"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWLEIpLlaZ0LctgTo1CYCEwzL5oaJ0SQO5OLNStni0vclISRp2fk9YDDs"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.infoplease.com/country/poland.html</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt;: Maps, History, Geography, Government, Culture, Facts &lt;b&gt;...&lt;/b&gt;</title>
+        <link href="http://www.infoplease.com/country/poland.html" title="www.infoplease.com"/>
+        <summary type="html">Information on &lt;b&gt;Poland&lt;/b&gt; — geography, history, politics, government, economy, &lt;br&gt;
+            population statistics, culture, religion, languages, largest cities, as well as a map&lt;br&gt;
+            &amp;nbsp;...</summary>
+        <cse:cacheId>ZwkRN4C4l2AJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.infoplease.com/country/&lt;b&gt;poland&lt;/b&gt;.html</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="viewport" value="width=device-width, initial-scale=1"/>
+                <cse:Attribute name="chunk" value="COUNTRY-SEC"/>
+                <cse:Attribute name="idx" value="Carpathian Mountains"/>
+                <cse:Attribute name="isub" value="Solidarity Union"/>
+                <cse:Attribute name="title" value="Geography"/>
+                <cse:Attribute name="waif" value="geography of Poland"/>
+                <cse:Attribute name="wd" value="Poland"/>
+                <cse:Attribute name="dc.title" value="Poland"/>
+                <cse:Attribute name="uniqid" value="A0107891"/>
+                <cse:Attribute name="parent" value="A0107263"/>
+                <cse:Attribute name="subchannel" value="world"/>
+                <cse:Attribute name="channel" value="world"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://i.infopls.com/images/poland.gif"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="123"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSASigDEMeNmMkVRDd4EL4v4OBlymNjq3uh_Zai-xIe4i61njCeWjxqoQ"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.theguardian.com/world/poland</id>
+        <updated>1970-01-17T18:50:08.303Z</updated>
+        <title type="html">&lt;b&gt;Poland&lt;/b&gt; | World news | The Guardian</title>
+        <link href="http://www.theguardian.com/world/poland" title="www.theguardian.com"/>
+        <summary type="html">Oct 31, 2015 &lt;b&gt;...&lt;/b&gt; Alberto Nardelli, Alex Duval Smith and Pawel Swidlicki join Frances Perraudin to &lt;br&gt;
+            discuss the EU migrant crisis, elections in &lt;b&gt;Poland&lt;/b&gt; and&amp;nbsp;...</summary>
+        <cse:cacheId>5G0ukzJZ1ZEJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.theguardian.com/world/&lt;b&gt;poland&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="format-detection" value="telephone=no"/>
+                <cse:Attribute name="handheldfriendly" value="True"/>
+                <cse:Attribute name="viewport" value="width=device-width,minimum-scale=1,initial-scale=1"/>
+                <cse:Attribute name="apple-mobile-web-app-title" value="Guardian"/>
+                <cse:Attribute name="application-name" value="The Guardian"/>
+                <cse:Attribute name="msapplication-tilecolor" value="#005689"/>
+                <cse:Attribute name="theme-color" value="#005689"/>
+                <cse:Attribute name="msapplication-tileimage" value="https://assets.guim.co.uk/images/favicons/f06f6996e193d1ddcd614ea852322d25/windows_tile_144_b.png"/>
+                <cse:Attribute name="og:url" value="http://www.theguardian.com/world/poland"/>
+                <cse:Attribute name="al:ios:url" value="gnmguardian://world/poland?contenttype=list&amp;source=applinks"/>
+                <cse:Attribute name="og:type" value="website"/>
+                <cse:Attribute name="al:ios:app_store_id" value="409128287"/>
+                <cse:Attribute name="fb:app_id" value="180444840287"/>
+                <cse:Attribute name="al:ios:app_name" value="The Guardian"/>
+                <cse:Attribute name="og:site_name" value="the Guardian"/>
+                <cse:Attribute name="twitter:app:id:iphone" value="409128287"/>
+                <cse:Attribute name="twitter:app:name:googleplay" value="The Guardian"/>
+                <cse:Attribute name="twitter:app:name:ipad" value="The Guardian"/>
+                <cse:Attribute name="twitter:site" value="@guardian"/>
+                <cse:Attribute name="twitter:app:url:ipad" value="gnmguardian://world/poland?contenttype=list&amp;source=twitter"/>
+                <cse:Attribute name="twitter:card" value="summary"/>
+                <cse:Attribute name="twitter:app:name:iphone" value="The Guardian"/>
+                <cse:Attribute name="twitter:app:id:ipad" value="409128287"/>
+                <cse:Attribute name="twitter:app:id:googleplay" value="com.guardian"/>
+                <cse:Attribute name="twitter:app:url:iphone" value="gnmguardian://world/poland?contenttype=list&amp;source=twitter"/>
+                <cse:Attribute name="twitter:url" value="http://www.theguardian.com/world/poland"/>
+                <cse:Attribute name="og:title" value="Poland | World news | The Guardian"/>
+            </cse:DataObject>
+            <cse:DataObject type="webpage">
+                <cse:Attribute name="keywords" value="Europe"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="https://i.guim.co.uk/img/media/f4a5bf6d0c66ec61258e454224c9f5a0a9e2093c/0_263_4096_2458/master/4096.jpg?w=300&amp;q=85&amp;auto=format&amp;sharp=10&amp;s=09f70ee1c0735a343dddc45db47c1671"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="240"/>
+                <cse:Attribute name="height" value="144"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSANiIaqV9IGU2-WgsQdSrG9z2TvbnVNsrIUPPRCNlsYbRZQYf7LXXBCF0"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+</feed>

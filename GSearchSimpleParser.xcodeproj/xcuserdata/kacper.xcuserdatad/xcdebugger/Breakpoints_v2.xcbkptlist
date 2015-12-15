@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GSearchSimpleParser/TokenScanner.swift"
-            timestampString = "471900805.230868"
+            timestampString = "471901251.364351"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GSearchSimpleParser/TokenScanner.swift"
-            timestampString = "471900805.383641"
+            timestampString = "471901251.364351"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "nextToken()"
             landmarkType = "5">
          </BreakpointContent>

@@ -86,12 +86,11 @@ final class TokenScanner {
             else {
                 switch elem {
                 case "<":
-                    print("Peek: \(stream.peek())")
+                    contextStack.append(.Inside)
                     if let char = stream.peek() where char == "/" {
                         stream.consumeNext()
                         return [XMLToken.CloseToken]
                     }
-                    contextStack.append(.Inside)
                     return [XMLToken.BeginToken]
                 case "/": if let char = stream.peek() where char == ">" {
                         stream.consumeNext()
