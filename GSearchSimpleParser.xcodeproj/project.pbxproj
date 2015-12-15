@@ -12,6 +12,7 @@
 		E701F8441C1F76080067FDA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8431C1F76080067FDA7 /* main.swift */; };
 		E701F8461C1F76320067FDA7 /* Streams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8451C1F76320067FDA7 /* Streams.swift */; };
 		E701F8481C1F7A9D0067FDA7 /* GSearchAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8471C1F7A9D0067FDA7 /* GSearchAPIClient.swift */; };
+		E7C860561C209E9F00996544 /* file.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7C860541C209DCB00996544 /* file.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +25,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E7C860551C209E9300996544 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				E7C860561C209E9F00996544 /* file.xml in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +44,7 @@
 		E701F8451C1F76320067FDA7 /* Streams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Streams.swift; sourceTree = "<group>"; };
 		E701F8471C1F7A9D0067FDA7 /* GSearchAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSearchAPIClient.swift; sourceTree = "<group>"; };
 		E75F6ABB1C1F757C0056FB46 /* GSearchSimpleParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GSearchSimpleParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C860541C209DCB00996544 /* file.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = file.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E701F83E1C1F75F90067FDA7 /* Token.swift */,
+				E7C860541C209DCB00996544 /* file.xml */,
 				E701F8431C1F76080067FDA7 /* main.swift */,
 				E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */,
 				E701F8451C1F76320067FDA7 /* Streams.swift */,
@@ -84,6 +97,7 @@
 				E75F6AB71C1F757C0056FB46 /* Sources */,
 				E75F6AB81C1F757C0056FB46 /* Frameworks */,
 				E75F6AB91C1F757C0056FB46 /* CopyFiles */,
+				E7C860551C209E9300996544 /* CopyFiles */,
 			);
 			buildRules = (
 			);

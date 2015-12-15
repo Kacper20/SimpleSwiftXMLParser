@@ -35,6 +35,7 @@ node ::= <open_tag> <content> <end_tag>
 
 */
 enum XMLToken {
+    case QuestionMark
     case EqualSign
     case BeginToken
     case Id(String)

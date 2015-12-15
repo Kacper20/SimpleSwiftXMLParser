@@ -20,10 +20,10 @@ protocol Stream {
 class FileStream: Stream {
 
 }*/
-class MemoryStream: Stream {
+final class MemoryStream: Stream {
 
-    var string: String
-    var currIndx: String.Index
+    private var string: String
+    private var currIndx: String.Index
     init(string: String) {
         self.string = string
         self.currIndx = self.string.startIndex
@@ -35,7 +35,7 @@ class MemoryStream: Stream {
         return toReturnCharacter
     }
     func peek() -> Character? {
-        let nextIndx = currIndx.advancedBy(1)
+        let nextIndx = currIndx
         return nextIndx < string.endIndex ? string[nextIndx] : nil
     }
     func back() {
@@ -46,5 +46,19 @@ class MemoryStream: Stream {
         return currIndx == string.endIndex
     }
 }
+///FileStream : provides basic interface for reading characters sequentionally from file. Backed by NSFileHandle
+/*
+final class FileStream: Stream {
+    
+    var fileHandle: NSFileHandle
+    init?(filePath: String) {
+        guard let handle = NSFileHandle(forReadingAtPath: filePath) else { return nil }
+        self.fileHandle = handle
+    }
+    func consumeNext() -> Character? {
+        <#code#>
+    }
+} 
+*/
 
 
