@@ -7,11 +7,20 @@ let data = NSData(contentsOfFile: filePath!)!
 let str = String(data: data, encoding: NSUTF8StringEncoding)
 let generator = TokenScanner(stream: MemoryStream(string: str!))
 do{
-    var tokens = [XMLToken]()
-    while let nextToken = try generator.nextToken() {
-        tokens += nextToken
+    let anotherGenerator = TokenScanner(stream: MemoryStream(string: str!))
+    do {
+        var tokens: [XMLToken] = []
+        while let tokensNew =  anotherGenerator.nextToken() {
+            tokens.appendContentsOf(tokensNew)
+        }
+        print(tokens)
     }
-    print(tokens)
+    
+    
+    let parser = Parser(tokenScanner: generator)
+    let node = try parser.parseNode()
+    print(node)
+    
 }
 catch {
     print(error)

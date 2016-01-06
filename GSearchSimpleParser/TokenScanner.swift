@@ -17,7 +17,7 @@ final class TokenScanner {
     private enum Context {
         case Inside, Outside
     }
-    
+
     private var contextStack: [Context] = [.Outside]
     private let alphanumericSet = NSCharacterSet.alphanumericCharacterSet()
     private let whitespaceSet = NSCharacterSet.whitespaceAndNewlineCharacterSet()
@@ -36,11 +36,16 @@ final class TokenScanner {
             }
         }
     }
+    
     private func consumeId(startingElem: Character) -> [XMLToken]{
         var tempBuffer = String(startingElem)
         repeat {
             guard let elem = stream.consumeNext() else { return [XMLToken.Id(tempBuffer)] }
             
+            if elem == "/" {
+                stream.back()
+                return [XMLToken.Id(tempBuffer)]
+            }
             if elem.isIn(alphanumericSet) || elem.isIn(punctuationSet) {
                 tempBuffer.append(elem)
             }
@@ -72,11 +77,14 @@ final class TokenScanner {
             tempBuffer.append(elem)
         } while true
     }
+    
+    
     func nextToken()  -> [XMLToken]?  {
         repeat {
             guard let elem = stream.consumeNext() else { return nil }
             
             if elem.isIn(alphanumericSet) && contextStack.last == .Inside { return consumeId(elem) }
+        
             else if elem.isIn(alphanumericSet) && contextStack.last == .Outside {
                 stream.back()
                 return consumeString(.OutsideQuotation)
