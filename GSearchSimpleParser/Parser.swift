@@ -11,6 +11,10 @@ struct Node {
     
 }
 
+extension Array{
+     var description: String {
+        return self.reduce("") { return $0 + "\($1)\n" }    }
+}
 
 enum XMLNodeContent: CustomStringConvertible {
     case StringContent(String)
@@ -20,7 +24,7 @@ enum XMLNodeContent: CustomStringConvertible {
     var description: String {
         switch self {
         case .StringContent(let val): return "STRING: \(val)"
-        case .ChildNodes(nodes: let nodes): return "NODES: \(nodes)"
+        case .ChildNodes(nodes: let nodes): return "NODES: \t \(nodes)"
         case .None: return "EMPTY CONTENT"
         }
     }
@@ -30,8 +34,20 @@ struct XMLNodeAttribute: CustomStringConvertible {
     let value: String
     
     var description: String {
-        return "ATTRIBUTE: \(key), value: \(value)"
+        return "ATTRIBUTE: \(key), value: \(value)\n"
     }
+}
+
+struct XMLHeader: CustomStringConvertible {
+    let name: String
+    var attributes: [XMLNodeAttribute]
+    
+    
+    var description: String {
+        let attrs = attributes.reduce("") { return $0 +  "\($1)\n" }
+        return "name: \(name)\n, attrs: \n\(attrs)\n"
+    }
+    
 }
 struct XMLNode: CustomStringConvertible {
     
@@ -40,8 +56,18 @@ struct XMLNode: CustomStringConvertible {
     var content: XMLNodeContent
     
     var description: String {
-        return "NODE name: \(name), attrs: \(attributes), \(content)"
+        return "\n\nNODE name: \(name), \nattrs: \(attributes), \(content)"
     }
+}
+struct XMLDocument: CustomStringConvertible{
+    
+    let header: XMLHeader
+    let nodes: [XMLNode]
+    var description: String {
+        let nodesDesc = nodes.reduce("") { return $0 +  "\($1)\n" }
+        return "XML DOCUMENT:\nHEADER: \(header)\nCONTENT: \(nodesDesc)"
+    }
+    
 }
 
 
@@ -50,7 +76,7 @@ enum ParseError: ErrorType {
     case ExpectedSomething
 }
 
-class Parser {
+final class Parser {
     
     private var tokenScanner: TokenScanner
     private var tokens: [XMLToken] = []
@@ -62,7 +88,7 @@ class Parser {
     }
     //Function that peeks into the next token, but not consumes it.
     
-    func peekToken() -> XMLToken? {
+    private func peekToken() -> XMLToken? {
         //If we have
         if indx < tokens.count - 1 {
             return tokens[indx + 1]
@@ -75,7 +101,7 @@ class Parser {
             return nil
         }
     }
-    func popToken() -> XMLToken? {
+    private func popToken() -> XMLToken? {
         if indx < tokens.count - 1 {
             indx += 1
             return tokens[indx]
@@ -109,7 +135,7 @@ class Parser {
     
     
 
-    func parseAttribute() throws -> XMLNodeAttribute {
+    private func parseOneAttribute() throws -> XMLNodeAttribute {
         //refactor later...
         guard let token = popToken() else { fatalError("Empty token but called parseAttributeFunction") }
         guard case let XMLToken.Id(keyValue) = token else {
@@ -121,7 +147,7 @@ class Parser {
         return XMLNodeAttribute(key: keyValue, value: value)
     }
     
-    func getOrThrowEmpty() throws -> XMLToken {
+    private func getOrThrowEmpty() throws -> XMLToken {
         if let token = popToken()  {
             return token
         }
@@ -130,19 +156,20 @@ class Parser {
         }
         
     }
-    func parseAttributeValue() throws -> String {
+    private func parseAttributeValue() throws -> String {
         guard case XMLToken.Quotation = try getOrThrowEmpty() else { throw ParseAttributeError.ExpectedQuotation }
         guard case let XMLToken.Name(val) = try getOrThrowEmpty() else { throw ParseAttributeError.ExpectedAttributeValue }
         guard case XMLToken.Quotation = try getOrThrowEmpty() else { throw ParseAttributeError.ExpectedQuotation }
         return val
     }
-    func passThroughWhitespace() {
+    private func passThroughWhitespace() {
         if let next = peekToken() {
             if case XMLToken.Whitespace = next  { let _ = popToken()  }
         }
     }
     
     enum ParseNodeError: ErrorType {
+        case ExpectedQuestionMark
         case ExpectedOpenToken
         case ExpectedNameToken
         case EmptyInputWithoutClosingNode
@@ -165,6 +192,87 @@ class Parser {
         return id
 
     }
+    
+    func parseChildNodes() throws -> [XMLNode] {
+        var nodes: [XMLNode] = []
+        while true {
+            passThroughWhitespace()
+            guard let token = peekToken() else { return nodes }
+            guard case XMLToken.BeginToken = token else { return nodes }
+            let nodeParsed = try parseNode()
+            
+            nodes.append(nodeParsed)
+        }
+
+        
+        
+        
+    }
+    
+    func parseDocument() -> XMLDocument? {
+        do {
+            let header = try parseHeader()
+            passThroughWhitespace()
+            let nodes = try parseChildNodes()
+            
+            return XMLDocument(header: header, nodes: nodes)
+        }
+        catch {
+            
+            print("Error: \(error)")
+            return nil
+        }
+
+
+    }
+    func parseHeader() throws -> XMLHeader{
+        
+        guard case XMLToken.BeginToken = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedOpenToken }
+        guard case XMLToken.QuestionMark = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedQuestionMark }
+        guard case let XMLToken.Id(name) = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedNameToken }
+        
+        let attrs = try parseAttributes()
+        passThroughWhitespace()
+        guard case XMLToken.QuestionMark = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedQuestionMark }
+        guard case XMLToken.EndToken = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedEndTokenInClosing }
+        
+
+        return XMLHeader(name: name, attributes: attrs)
+        
+        
+    }
+    
+
+    func parseAttributes() throws -> [XMLNodeAttribute] {
+        
+        var attributes: [XMLNodeAttribute] = []
+        
+        while true {
+            guard let peek = peekToken() else { throw ParseNodeError.EmptyInputWithoutClosingNode }
+            if case let XMLToken.Id(_) = peek {
+                let parsedAttribute = try parseOneAttribute()
+                attributes.append(parsedAttribute)
+                continue
+            }
+            if case XMLToken.Whitespace = peek {
+                popToken()
+                guard let peek = peekToken() else { throw ParseNodeError.EmptyInputWithoutClosingNode }
+                if case let XMLToken.Id(_) = peek {
+                    continue
+                }
+                else {
+                    break
+                }
+            }
+            break
+            
+        }
+        return attributes
+        
+    }
+
+        
+
     func parseNode() throws -> XMLNode {
         guard case XMLToken.BeginToken = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedOpenToken }
         guard case let XMLToken.Id(name) = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedNameToken }
@@ -175,30 +283,7 @@ class Parser {
         guard let nextAfter = popToken() else { throw ParseNodeError.EmptyInputWithoutClosingNode }
         //If it's whitespace - we're checking for the attributes(there has to be whitespace). If there are no attributes, whitespace is consumed and we're looking for closing of the node.
         if case XMLToken.Whitespace = nextAfter {
-            while true {
-                guard let peek = peekToken() else { throw ParseNodeError.EmptyInputWithoutClosingNode }
-                if case let XMLToken.Id(_) = peek {
-                    let parsedAttribute = try parseAttribute()
-                    attributes.append(parsedAttribute)
-                    
-                    
-                }
-                if case XMLToken.Whitespace = peek {
-                    popToken()
-                    guard let peek = peekToken() else { throw ParseNodeError.EmptyInputWithoutClosingNode }
-                    if case let XMLToken.Id(_) = peek {
-                        continue
-                    }
-                    else {
-                        break
-                    }
-                }
-                break
-
-            }
-            //Parse attributes..
-            //TODO: Parse attrs.
-            
+            attributes = try parseAttributes()
         }
         guard let closingElement = { Void -> XMLToken? in
             if case XMLToken.Whitespace = nextAfter {
@@ -214,27 +299,29 @@ class Parser {
             return XMLNode(name: name, attributes: attributes, content: XMLNodeContent.None)
         }
         else if case XMLToken.EndToken = closingElement {
-            guard let next = peekToken() else { throw ParseNodeError.NoClosingNode }
+            passThroughWhitespace()
+            guard var next = peekToken() else { throw ParseNodeError.NoClosingNode }
             var childNodes: [XMLNode] = []
+            
+            
+            if case let XMLToken.BeginToken = next {
+                //Parse SUBNODES...
+                childNodes = try parseChildNodes()
+                guard let nodeAfterParsingSubnodes = peekToken() else { throw ParseNodeError.NoClosingNode }
+                next = nodeAfterParsingSubnodes
+                
+            }
             if case let XMLToken.Name(val) = next {
+                let _ = popToken()
                 if try parseClosingElement() == name {
-                    let _ = popToken()
                     return XMLNode(name: name, attributes: attributes, content: XMLNodeContent.StringContent(val))
                 }
                 else {
                     throw ParseNodeError.BeginningClosingElementInconsistentNames
                 }
             }
-            if case let XMLToken.BeginToken = next {
-                
-                
-                
-                
-                //Parse SUB!
-            }
             if case let XMLToken.CloseToken = next {
                 if try parseClosingElement() == name {
-                    let _ = popToken()
                     let contentType = { Void -> XMLNodeContent in
                         if childNodes.count > 0 {
                             return XMLNodeContent.ChildNodes(nodes: childNodes)

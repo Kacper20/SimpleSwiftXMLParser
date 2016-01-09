@@ -25,5 +25,7 @@ public enum XMLToken {
     case CloseToken
     case Whitespace
     case AutoCloseToken
+    case HeaderOpen
+    case HeaderClose
     
 }

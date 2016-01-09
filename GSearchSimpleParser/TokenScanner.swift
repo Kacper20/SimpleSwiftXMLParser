@@ -101,6 +101,7 @@ final class TokenScanner {
                     }
                     return [XMLToken.BeginToken]
                 case "/": if let char = stream.peek() where char == ">" {
+                        contextStack.removeLast()
                         stream.consumeNext()
                         return [XMLToken.AutoCloseToken]
                     }

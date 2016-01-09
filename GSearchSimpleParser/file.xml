@@ -1,1 +1,357 @@
-<namekaka mam="kak" />
+<?xml version="1.0" encoding="UTF-8"?>
+<feed gd:kind="customsearch#search" xmlns="http://www.w3.org/2005/Atom" xmlns:cse="http://schemas.google.com/cseapi/2010" xmlns:gd="http://schemas.google.com/g/2005" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+    <title>Google Custom Search - Armenia</title>
+    <id>tag:www.googleapis.com,2010-09-29:/customsearch/v1?q=Armenia&amp;cx=001663399765669867942:y9ew9z4ysby&amp;num=10&amp;start=1&amp;safe=off</id>
+    <author>
+        <name>TKOM - Google Custom Search</name>
+    </author>
+    <updated>1970-01-17T19:26:14.690Z</updated>
+    <opensearch:Url type="application/atom+xml" template="https://www.googleapis.com/customsearch/v1?q={searchTerms}&amp;num={count?}&amp;start={startIndex?}&amp;lr={language?}&amp;safe={cse:safe?}&amp;cx={cse:cx?}&amp;cref={cse:cref?}&amp;sort={cse:sort?}&amp;filter={cse:filter?}&amp;gl={cse:gl?}&amp;cr={cse:cr?}}&amp;googlehost={cse:googleHost?}&amp;c2coff={?cse:disableCnTwTranslation}&amp;hq={cse:hq?}&amp;hl={cse:hl?}&amp;siteSearch={cse:siteSearch?}&amp;siteSearchFilter={cse:siteSearchFilter?}&amp;exactTerms={cse:exactTerms?}&amp;excludeTerms={cse:excludeTerms?}&amp;linkSite={cse:linkSite?}&amp;orTerms={cse:orTerms?}&amp;relatedSite={cse:relatedSite?}&amp;dateRestrict={cse:dateRestrict?}&amp;lowRange={cse:lowRange?}&amp;highRange={cse:highRange?}&amp;searchType={cse:searchType?}&amp;fileType={cse:fileType?}&amp;rights={cse:rights?}&amp;imgsz={cse:imgsz?}&amp;imgtype={cse:imgtype?}&amp;imgc={cse:imgc?}&amp;imgcolor={cse:imgcolor?}&amp;alt=atom"/>
+    <opensearch:Query role="request" title="Google Custom Search - Armenia" totalResults="29600000" searchTerms="Armenia" count="10" startIndex="1" inputEncoding="utf8" outputEncoding="utf8" cse:safe="off" cse:cx="001663399765669867942:y9ew9z4ysby"/>
+    <opensearch:Query role="cse:nextPage" title="Google Custom Search - Armenia" totalResults="29600000" searchTerms="Armenia" count="10" startIndex="11" inputEncoding="utf8" outputEncoding="utf8" cse:safe="off" cse:cx="001663399765669867942:y9ew9z4ysby"/>
+    <opensearch:totalResults>29600000</opensearch:totalResults>
+    <opensearch:startIndex>1</opensearch:startIndex>
+    <cse:context title="TKOM"/>
+    <cse:searchInformation>
+        <cse:searchTime>0.432019</cse:searchTime>
+        <cse:formattedSearchTime>0.43</cse:formattedSearchTime>
+        <cse:totalResults>29600000</cse:totalResults>
+        <cse:formattedTotalResults>29,600,000</cse:formattedTotalResults>
+    </cse:searchInformation>
+    <cse:spelling>
+        <cse:correctedQuery type="html"/>
+    </cse:spelling>
+    <entry gd:kind="customsearch#result">
+        <id>https://en.wikipedia.org/wiki/Armenia</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt; - Wikipedia, the free encyclopedia</title>
+        <link href="https://en.wikipedia.org/wiki/Armenia" title="en.wikipedia.org"/>
+        <summary type="html">&lt;b&gt;Armenia&lt;/b&gt; is a unitary, multi-party, democratic nation-state with an ancient cultural &lt;br&gt;
+            heritage. The Satrapy of &lt;b&gt;Armenia&lt;/b&gt; was established in the 6th century BC, after&amp;nbsp;...</summary>
+        <cse:cacheId>C0MaFhJtOXIJ</cse:cacheId>
+        <cse:formattedUrl type="html">https://en.wikipedia.org/wiki/&lt;b&gt;Armenia&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="hcard">
+                <cse:Attribute name="fn" value="Republic of Armenia"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Armenia_(orthographic_projection).svg/250px-Armenia_(orthographic_projection).svg.png"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="200"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT16o30I92TWndeXtV3IfVHc5UrRzkIZZ0JxcSZeCYAg_j5OC4CiDV6ZzOc"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>https://www.cia.gov/library/publications/the-world-factbook/geos/am.html</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt;</title>
+        <link href="https://www.cia.gov/library/publications/the-world-factbook/geos/am.html" title="www.cia.gov"/>
+        <summary type="html">Features map and brief descriptions of the geography, people, government, &lt;br&gt;
+            economy, communications, transportation, military and transnational issues.</summary>
+        <cse:cacheId>t8yFk1FksWMJ</cse:cacheId>
+        <cse:formattedUrl type="html">https://www.cia.gov/library/publications/the-world.../am.html</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="viewport" value="width=device-width"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="https://www.cia.gov/library/publications/the-world-factbook/graphics/photo_on.gif"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="97"/>
+                <cse:Attribute name="height" value="65"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1Cjs7YIKcb99vRqg4h3JTcjem4bx05-N96TqpTujHcal4dZ04UeyPtQ"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.gov.am/en/</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">The Government of the Republic of &lt;b&gt;Armenia&lt;/b&gt;</title>
+        <link href="http://www.gov.am/en/" title="www.gov.am"/>
+        <summary type="html">I welcome you to the official website of the Government of the Republic of &lt;br&gt;
+            &lt;b&gt;Armenia&lt;/b&gt;. Here you will find information about the Executive&amp;#39;s organization, its &lt;br&gt;
+            activities&amp;nbsp;...</summary>
+        <cse:cacheId>ofObMfG5D4gJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.gov.am/en/</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="og:image" value="http://www.gov.am/images/fb_logo.jpg"/>
+                <cse:Attribute name="author" value="Helix Consulting LLC"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://www.gov.am/images/fb_logo.jpg"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="160"/>
+                <cse:Attribute name="height" value="160"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyfeJ_OjN2BDzikbDnUZ7jqjemoq0rE7P3SARlZzlx7Q6KGj-itgxuDgU"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.state.gov/r/pa/ei/bgn/5275.htm</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt;</title>
+        <link href="http://www.state.gov/r/pa/ei/bgn/5275.htm" title="www.state.gov"/>
+        <summary type="html">Mar 20, 2015 &lt;b&gt;...&lt;/b&gt; Fact Sheet on U.S. bilateral relations with &lt;b&gt;Armenia&lt;/b&gt;.</summary>
+        <cse:cacheId>1EZW36PPEogJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.state.gov/r/pa/ei/bgn/5275.htm</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="dc_title" value="Armenia"/>
+                <cse:Attribute name="dc_date" value="2015-03-20"/>
+                <cse:Attribute name="dc_subject" value="armenia|europe and eurasia|country information|country studies|"/>
+                <cse:Attribute name="dc_subject2" value="armenia|europe and eurasia|country information|country studies|"/>
+                <cse:Attribute name="dc_type_publication" value="Press Release|Fact Sheet"/>
+                <cse:Attribute name="dc_type_publication2" value="Press Release|Fact Sheet"/>
+                <cse:Attribute name="dc_type" value="Press Release|Fact Sheet"/>
+                <cse:Attribute name="dc_coverage" value="armenia|europe and eurasia|"/>
+                <cse:Attribute name="dc_coverage2" value="armenia|europe and eurasia|"/>
+                <cse:Attribute name="dc_description" value="Fact Sheet on US bilateral relations with Armenia"/>
+                <cse:Attribute name="dc_identifier" value="http://www.state.gov/r/pa/ei/bgn/5275.htm"/>
+                <cse:Attribute name="dc_creator" value="Department Of State. The Office of Website Management, Bureau of Public Affairs."/>
+                <cse:Attribute name="dc_publisher" value="Department Of State. The Office of Website Management, Bureau of Public Affairs."/>
+                <cse:Attribute name="dc_language" value="en"/>
+                <cse:Attribute name="dc_format" value="document,html"/>
+                <cse:Attribute name="dc_rights" value="http://www.state.gov/r/pa/ei/rls/dos/3797.htm"/>
+                <cse:Attribute name="og:title" value="Armenia"/>
+                <cse:Attribute name="og:type" value="article"/>
+                <cse:Attribute name="og:url" value="http://www.state.gov/r/pa/ei/bgn/5275.htm"/>
+                <cse:Attribute name="og:image" value="http://www.state.gov/images/2014/dos-seal-256x256.png"/>
+                <cse:Attribute name="og:site_name" value="U.S. Department of State"/>
+                <cse:Attribute name="domain" value="www2.state.gov"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://www.state.gov/images/2014/dos-seal-256x256.png"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.bbc.co.uk/news/world-europe-17398605</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt; country profile - BBC News</title>
+        <link href="http://www.bbc.co.uk/news/world-europe-17398605" title="www.bbc.co.uk"/>
+        <summary type="html">Aug 27, 2015 &lt;b&gt;...&lt;/b&gt; Provides an overview of &lt;b&gt;Armenia&lt;/b&gt;, including key events and facts about this &lt;br&gt;
+            eastern European country.</summary>
+        <cse:cacheId>6nw0ObJH9TYJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.bbc.co.uk/news/world-europe-17398605</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="x-country" value="us"/>
+                <cse:Attribute name="x-audience" value="Domestic"/>
+                <cse:Attribute name="cps_audience" value="Domestic"/>
+                <cse:Attribute name="cps_changequeueid" value="254563968"/>
+                <cse:Attribute name="og:title" value="Armenia country profile - BBC News"/>
+                <cse:Attribute name="og:type" value="article"/>
+                <cse:Attribute name="og:description" value="Provides an overview of Armenia, including key events and facts about this eastern European country"/>
+                <cse:Attribute name="og:site_name" value="BBC News"/>
+                <cse:Attribute name="og:locale" value="en_GB"/>
+                <cse:Attribute name="og:article:author" value="BBC News"/>
+                <cse:Attribute name="og:article:section" value="Europe"/>
+                <cse:Attribute name="og:url" value="http://www.bbc.co.uk/news/world-europe-17398605"/>
+                <cse:Attribute name="og:image" value="http://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1"/>
+                <cse:Attribute name="twitter:card" value="summary_large_image"/>
+                <cse:Attribute name="twitter:site" value="@BBCNews"/>
+                <cse:Attribute name="twitter:title" value="Armenia country profile - BBC News"/>
+                <cse:Attribute name="twitter:description" value="Provides an overview of Armenia, including key events and facts about this eastern European country"/>
+                <cse:Attribute name="twitter:creator" value="@BBCNews"/>
+                <cse:Attribute name="twitter:image:src" value="http://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1"/>
+                <cse:Attribute name="twitter:domain" value="www.bbc.co.uk"/>
+                <cse:Attribute name="apple-mobile-web-app-title" value="BBC News"/>
+                <cse:Attribute name="application-name" value="BBC News"/>
+                <cse:Attribute name="msapplication-tileimage" value="http://static.bbci.co.uk/news/1.105.0494/windows-eight-icon-144x144.png"/>
+                <cse:Attribute name="msapplication-tilecolor" value="#bb1919"/>
+                <cse:Attribute name="mobile-web-app-capable" value="yes"/>
+                <cse:Attribute name="theme-color" value="#bb1919"/>
+                <cse:Attribute name="viewport" value="width=device-width, initial-scale=1.0"/>
+                <cse:Attribute name="fb:admins" value="100004154058350"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://ichef-1.bbci.co.uk/news/304/cpsprodpb/6DDB/production/_85232182_armeniamap.gif"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="243"/>
+                <cse:Attribute name="height" value="136"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1lIDSdONT4sivxbouYqEOQCCZUW6qF_IoHGaPs5dZtFSHLuIXGupaRas"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.armeniainfo.am/</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;ARMENIA&lt;/b&gt; Information</title>
+        <link href="http://www.armeniainfo.am/" title="www.armeniainfo.am"/>
+        <summary type="html">Welcome to &lt;b&gt;Armenia&lt;/b&gt;. Favorite Destination. Since Noah&amp;#39;s Time. Where Hospitality&lt;br&gt;
+            . is Innate. Historic Homeland,. Reborn Republic. Land of Wild Beauty.</summary>
+        <cse:cacheId>3EDfwoniBPgJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.&lt;b&gt;armenia&lt;/b&gt;info.am/</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://www.armeniainfo.am/images/arminfo.gif"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="120"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCtW-fSRldl_f4V_-_mAVM-rp5KQIe4bgBZ-WFIaQa81NN_N5CrrPqqGs"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.lonelyplanet.com/armenia</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt; - Lonely Planet</title>
+        <link href="http://www.lonelyplanet.com/armenia" title="www.lonelyplanet.com"/>
+        <summary type="html">Few nations have histories as ancient, complex and laced with tragedy as &lt;br&gt;
+            &lt;b&gt;Armenia&lt;/b&gt; (ՀԱՅԱՍՏԱՆ). And even fewer have a culture that is as rich and...</summary>
+        <cse:cacheId>rCkOp3KddkAJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.lonelyplanet.com/&lt;b&gt;armenia&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="sailthru.date" value="2016-01-08 22:55:24 +0000"/>
+                <cse:Attribute name="sailthru.tags" value="Europe, Armenia, adventure-travel, architecture-and-buildings, food-and-drink, history-heritage-and-tradition, off-the-beaten-track, walking-and-trekking"/>
+                <cse:Attribute name="title" value="Armenia - Lonely Planet"/>
+                <cse:Attribute name="twitter:card" value="summary_large_image"/>
+                <cse:Attribute name="twitter:site" value="@lonelyplanet"/>
+                <cse:Attribute name="twitter:title" value="Armenia - Lonely Planet"/>
+                <cse:Attribute name="twitter:description" value="Few nations have histories as ancient, complex and laced with tragedy as Armenia (ՀԱՅԱՍՏԱՆ). And even fewer have a culture that is as rich and..."/>
+                <cse:Attribute name="og:site_name" value="Lonely Planet"/>
+                <cse:Attribute name="og:title" value="Armenia - Lonely Planet"/>
+                <cse:Attribute name="og:description" value="Few nations have histories as ancient, complex and laced with tragedy as Armenia (ՀԱՅԱՍՏԱՆ). And even fewer have a culture that is as rich and..."/>
+                <cse:Attribute name="og:url" value="http://www.lonelyplanet.com/armenia"/>
+                <cse:Attribute name="og:type" value="website"/>
+                <cse:Attribute name="author" value="Lonely Planet"/>
+                <cse:Attribute name="theme-color" value="#1D508D"/>
+                <cse:Attribute name="fb:app_id" value="111537044496"/>
+                <cse:Attribute name="viewport" value="width=device-width, initial-scale=1"/>
+                <cse:Attribute name="csrf-param" value="authenticity_token"/>
+                <cse:Attribute name="csrf-token" value="sWkdR3w384HQXGGj+wuVrcj6JFEjBSG9mRzdYoEDvOE="/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="name" value="View Basket"/>
+                <cse:Attribute name="url" value="Sign in"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Search"/>
+                <cse:Attribute name="name" value="Search"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Highlights"/>
+                <cse:Attribute name="name" value="Highlights"/>
+            </cse:DataObject>
+            <cse:DataObject type="breadcrumb">
+                <cse:Attribute name="url" value="Europe"/>
+                <cse:Attribute name="title" value="Europe"/>
+            </cse:DataObject>
+            <cse:DataObject type="breadcrumb">
+                <cse:Attribute name="url" value="Georgia, Armenia &amp; Azerbaijan"/>
+                <cse:Attribute name="title" value="Georgia, Armenia &amp; Azerbaijan"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Destinations"/>
+                <cse:Attribute name="name" value="Destinations"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="About us"/>
+                <cse:Attribute name="name" value="About us"/>
+            </cse:DataObject>
+            <cse:DataObject type="sitenavigationelement">
+                <cse:Attribute name="url" value="Twitter"/>
+                <cse:Attribute name="name" value="Twitter"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://images-resrc.staticlp.com/C=W788,H760,X0,Y0/S=W394,H380/O=85//media.lonelyplanet.com/a/g/hi/t/e8056a558f73dc6391c7154f280d3f4a-top-things-to-do-in-armenia.jpg"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="229"/>
+                <cse:Attribute name="height" value="220"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzMIbFS-q1JLgixCe4yxFFVDEnnnT9ExekOtXuAYkF-rNQejMIOJAo0m3e"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://www.infoplease.com/country/armenia.html</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt;: Maps, History, Geography, Government, Culture, Facts &lt;b&gt;...&lt;/b&gt;</title>
+        <link href="http://www.infoplease.com/country/armenia.html" title="www.infoplease.com"/>
+        <summary type="html">Information on &lt;b&gt;Armenia&lt;/b&gt; — geography, history, politics, government, economy, &lt;br&gt;
+            population statistics, culture, religion, languages, largest cities, as well as a map&lt;br&gt;
+            &amp;nbsp;...</summary>
+        <cse:cacheId>vhzA-f1bX6cJ</cse:cacheId>
+        <cse:formattedUrl type="html">www.infoplease.com/country/&lt;b&gt;armenia&lt;/b&gt;.html</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="viewport" value="width=device-width, initial-scale=1"/>
+                <cse:Attribute name="chunk" value="COUNTRY-SEC"/>
+                <cse:Attribute name="idx" value="Armenia"/>
+                <cse:Attribute name="title" value="Armenia"/>
+                <cse:Attribute name="waif" value="geography of Armenia"/>
+                <cse:Attribute name="wd" value="Armenia"/>
+                <cse:Attribute name="dc.title" value="Armenia"/>
+                <cse:Attribute name="uniqid" value="A0107292"/>
+                <cse:Attribute name="parent" value="A0107263"/>
+                <cse:Attribute name="subchannel" value="world"/>
+                <cse:Attribute name="channel" value="world"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://i.infopls.com/images/armenia.gif"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="123"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSsksJOfNTwgg3wwWcphL34xHGtQTGaLMEpgYzJbaMg0OvZOiVY_juE7w"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>http://wikitravel.org/en/Armenia</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">&lt;b&gt;Armenia&lt;/b&gt; travel guide - Wikitravel</title>
+        <link href="http://wikitravel.org/en/Armenia" title="wikitravel.org"/>
+        <summary type="html">&lt;b&gt;Armenia&lt;/b&gt; (Armenian Հայաստան, Hayastan) is the only country remaining from &lt;br&gt;
+            3,000 year old maps of Anatolia. It became the world&amp;#39;s first Christian country more&lt;br&gt;
+            &amp;nbsp;...</summary>
+        <cse:cacheId>7qJvcliRjNkJ</cse:cacheId>
+        <cse:formattedUrl type="html">wikitravel.org/en/&lt;b&gt;Armenia&lt;/b&gt;</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="http://wikitravel.org/upload/shared//thumb/3/3c/Tatev-raffi_kojian-DCP_3721.JPG/250px-Tatev-raffi_kojian-DCP_3721.JPG"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_thumbnail">
+                <cse:Attribute name="width" value="200"/>
+                <cse:Attribute name="height" value="132"/>
+                <cse:Attribute name="src" value="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRWwCUVd4AIoWGOORJbA8e1X8RTHZVaDOaNGpblm13lWS2RfgIP2cI4e7c"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+    <entry gd:kind="customsearch#result">
+        <id>https://www.facebook.com/places/Things-to-do-in-Armenia-Quindio/110630662292032/</id>
+        <updated>1970-01-17T19:26:14.690Z</updated>
+        <title type="html">Things to do in &lt;b&gt;Armenia&lt;/b&gt;, Quindio | Facebook</title>
+        <link href="https://www.facebook.com/places/Things-to-do-in-Armenia-Quindio/110630662292032/" title="www.facebook.com"/>
+        <summary type="html">Discover &lt;b&gt;Armenia&lt;/b&gt;, Quindio with the help of your friends. Search for restaurants, &lt;br&gt;
+            hotels, museums and more.</summary>
+        <cse:cacheId>XjGGkS3A26sJ</cse:cacheId>
+        <cse:formattedUrl type="html">https://www.facebook.com/places/...&lt;b&gt;Armenia&lt;/b&gt;.../110630662292032/</cse:formattedUrl>
+        <cse:PageMap>
+            <cse:DataObject type="metatags">
+                <cse:Attribute name="referrer" value="default"/>
+                <cse:Attribute name="og:site_name" value="Facebook"/>
+                <cse:Attribute name="og:url" value="https://www.facebook.com/places/Things-to-do-in-Armenia-Quindio/110630662292032/"/>
+                <cse:Attribute name="og:title" value="Things to do in Armenia, Quindio"/>
+                <cse:Attribute name="og:description" value="Discover Armenia, Quindio with the help of your friends. Search for restaurants, hotels, museums and more."/>
+                <cse:Attribute name="og:image" value="https://external-atl3-1.xx.fbcdn.net/static_map.php?v=17&amp;size=900x668&amp;center=4.5286%2C-75.7042&amp;zoom=11&amp;language=en_US&amp;scale=2"/>
+            </cse:DataObject>
+            <cse:DataObject type="breadcrumb">
+                <cse:Attribute name="url" value="Places"/>
+                <cse:Attribute name="title" value="Places"/>
+            </cse:DataObject>
+            <cse:DataObject type="cse_image">
+                <cse:Attribute name="src" value="https://external-atl3-1.xx.fbcdn.net/static_map.php?v=17&amp;size=900x668&amp;center=4.5286%2C-75.7042&amp;zoom=11&amp;language=en_US&amp;scale=2"/>
+            </cse:DataObject>
+        </cse:PageMap>
+    </entry>
+</feed>
