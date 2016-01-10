@@ -17,8 +17,13 @@ class GSearchClient {
     
     
     
+
     
-    class func queryRequest(queryString: String) -> String? {
+    
+    
+    
+    
+    class func queryRequest(queryString: String, index: Int) -> String? {
         let apiK = "AIzaSyADUlqmX-3mDo2PdDdoZTll0fOvY8_ETyg"
         let c = "001663399765669867942:y9ew9z4ysby"
 
@@ -27,6 +32,7 @@ class GSearchClient {
         let query = NSURLQueryItem(name: "q", value: queryString)
         let cx = NSURLQueryItem(name: "cx", value: c)
         let atom = NSURLQueryItem(name: "alt", value: "atom")
+        let index = NSURLQueryItem(name: "start", value: "\(index)")
         components?.queryItems = [apiKey, query, cx, atom]
         let url = components!.URL!
         let data = try? NSURLConnection.sendSynchronousRequest(NSURLRequest(URL: url), returningResponse: nil)

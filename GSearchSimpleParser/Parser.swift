@@ -29,6 +29,8 @@ enum XMLNodeContent: CustomStringConvertible {
         }
     }
 }
+
+
 struct XMLNodeAttribute: CustomStringConvertible {
     let key: String
     let value: String
@@ -199,7 +201,7 @@ final class Parser {
             passThroughWhitespace()
             guard let token = peekToken() else { return nodes }
             guard case XMLToken.BeginToken = token else { return nodes }
-            let nodeParsed = try parseNode()
+            let nodeParsed = try parseChildNode()
             
             nodes.append(nodeParsed)
         }
@@ -273,7 +275,7 @@ final class Parser {
 
         
 
-    func parseNode() throws -> XMLNode {
+    func parseChildNode() throws -> XMLNode {
         guard case XMLToken.BeginToken = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedOpenToken }
         guard case let XMLToken.Id(name) = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedNameToken }
         

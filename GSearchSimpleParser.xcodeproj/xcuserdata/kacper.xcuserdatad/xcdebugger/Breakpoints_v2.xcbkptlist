@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GSearchSimpleParser/Parser.swift"
-            timestampString = "474063779.358013"
+            timestampString = "474124688.247163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
             landmarkName = "Parser"
             landmarkType = "3">
          </BreakpointContent>
@@ -74,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GSearchSimpleParser/Parser.swift"
-            timestampString = "474067602.831769"
+            timestampString = "474124688.247163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "297"
-            endingLineNumber = "297"
-            landmarkName = "parseNode()"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "parseChildNode()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -100,13 +100,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GSearchSimpleParser/Parser.swift"
-            timestampString = "474067602.831769"
+            timestampString = "474124688.247163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
             landmarkName = "parseHeader()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GSearchSimpleParser/main.swift"
+            timestampString = "474124992.354607"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

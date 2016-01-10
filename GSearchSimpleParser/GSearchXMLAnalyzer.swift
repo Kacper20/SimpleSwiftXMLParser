@@ -8,7 +8,12 @@
 
 import Foundation
 
-
+extension Array {
+    func element(predicate: Element -> Bool) -> Element?{
+        for elem in self where predicate(elem) { return elem }
+        return nil
+    }
+}
 public class GSearchXMLAnalyzer {
     
     let document: XMLDocument
@@ -50,6 +55,33 @@ public class GSearchXMLAnalyzer {
 
             
         }
+    
+    func getCurrentStartIndxAndNextStartIndx() -> (Int, Int)? {
+        if let feed = document.nodes.first where feed.name == "feed", case let XMLNodeContent.ChildNodes(nodes: nodes) = feed.content {
+            
+            
+            guard let reqnode = nodes.element ({ $0.attributes.contains({ (attr) -> Bool in
+                attr.key == "role" && attr.value == "request"
+            })  }),
+            let nextPageNode = nodes.element ({ $0.attributes.contains({ (attr) -> Bool in
+            attr.key == "role" && attr.value == "cse:nextPage"
+            })  })  else { return nil }
+            
+            
+            let currentStartIndx = reqnode.attributes.element ({$0.key == "startIndex"  })!.value
+            let nextStartIndx = nextPageNode.attributes.element({$0.key == "startIndex"})!.value
+            return (Int(currentStartIndx)!, Int(nextStartIndx)!)
+            
+        
+            
+        }
+        return nil
+    
+    }
+    
+    
+    
+    
     }
     
     
