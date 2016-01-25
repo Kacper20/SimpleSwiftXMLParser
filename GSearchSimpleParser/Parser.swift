@@ -7,9 +7,6 @@
 //
 
 import Foundation
-struct Node {
-    
-}
 
 extension Array{
      var description: String {
@@ -74,9 +71,6 @@ struct XMLDocument: CustomStringConvertible{
 
 
 
-enum ParseError: ErrorType {
-    case ExpectedSomething
-}
 
 final class Parser {
     
@@ -244,6 +238,11 @@ final class Parser {
         
     }
     
+    
+    
+    /*
+     Funkcja parsująca atrybuty XML. Zwraca tablicę atrybutów.
+    */
 
     func parseAttributes() throws -> [XMLNodeAttribute] {
         
@@ -273,8 +272,14 @@ final class Parser {
         
     }
 
+    
+    
         
+    /**
 
+    Funkcja parsująca jeden węzeł hierarchii XML. W razie potrzeby, gdy węzeł ma dzieci w swojej hierarchii, w metodzie jest rekursywnie wywoływana funkcja parsująca je.
+
+    */
     func parseChildNode() throws -> XMLNode {
         guard case XMLToken.BeginToken = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedOpenToken }
         guard case let XMLToken.Id(name) = try getOrThrowEmpty() else { throw ParseNodeError.ExpectedNameToken }

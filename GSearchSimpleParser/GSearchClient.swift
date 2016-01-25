@@ -15,13 +15,7 @@ import Foundation
 
 class GSearchClient {
     
-    
-    
 
-    
-    
-    
-    
     
     class func queryRequest(queryString: String, index: Int) -> String? {
         let apiK = "AIzaSyADUlqmX-3mDo2PdDdoZTll0fOvY8_ETyg"

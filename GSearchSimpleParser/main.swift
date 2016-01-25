@@ -2,16 +2,21 @@ import Foundation
 
 /* (string: "<note> <to>Tove</to> <body>Dont forget to do it!</body> </note>")) */
 
-let filePath = NSBundle.mainBundle().pathForResource("file", ofType: "xml")
-let data = NSData(contentsOfFile: filePath!)!
+let args = dump(Process.arguments)
+let query = args[1]
+let maxItems = Int(args[2])
+let outputFile = args[3]
+
+
+
 //let str = String(data: data, encoding: NSUTF8StringEncoding)
-let maxResults: Int = 30
+let maxResults: Int = maxItems ?? 100
 var currentAdresses: [String] = []
 var startingIndx = 1
 
 while currentAdresses.count < maxResults {
-    
-    let str = GSearchClient.queryRequest("Stany zjednoczone", index: startingIndx)
+
+    let str = GSearchClient.queryRequest(query, index: startingIndx)
     let generator = TokenScanner(stream: MemoryStream(string: str!))
     do{
         let anotherGenerator = TokenScanner(stream: MemoryStream(string: str!))
@@ -23,9 +28,9 @@ while currentAdresses.count < maxResults {
             //        print(tokens)
         }
         let parser = Parser(tokenScanner: generator)
-        
+
         if let xmlDocument = try parser.parseDocument() {
-            
+
             //        print(xmlDocument)
             let analyzer = GSearchXMLAnalyzer(document: xmlDocument)
             if let (curr, next) = analyzer.getCurrentStartIndxAndNextStartIndx() {
@@ -35,7 +40,7 @@ while currentAdresses.count < maxResults {
                 break
             }
             currentAdresses.appendContentsOf(analyzer.getAdresses())
-        
+
         }
     }
     catch {
@@ -46,7 +51,4 @@ while currentAdresses.count < maxResults {
 
 let json = try! NSJSONSerialization.dataWithJSONObject(currentAdresses, options: .PrettyPrinted)
 let string = String(data: json, encoding: NSUTF8StringEncoding)
-print("JSON: \(string)")
-
-
-
+json.writeToFile(outputFile, atomically: true)

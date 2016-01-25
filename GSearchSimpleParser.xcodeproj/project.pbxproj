@@ -11,7 +11,6 @@
 		E701F8421C1F75F90067FDA7 /* TokenScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */; };
 		E701F8441C1F76080067FDA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8431C1F76080067FDA7 /* main.swift */; };
 		E701F8461C1F76320067FDA7 /* Streams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8451C1F76320067FDA7 /* Streams.swift */; };
-		E701F8481C1F7A9D0067FDA7 /* GSearchAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8471C1F7A9D0067FDA7 /* GSearchAPIClient.swift */; };
 		E7B47E661C41A4A7002C741D /* GSearchXMLAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B47E651C41A4A7002C741D /* GSearchXMLAnalyzer.swift */; };
 		E7B47E681C41AC3B002C741D /* GSearchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B47E671C41AC3B002C741D /* GSearchClient.swift */; };
 		E7BA269C1C3C653000845A6E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA269B1C3C653000845A6E /* Parser.swift */; };
@@ -45,7 +44,6 @@
 		E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenScanner.swift; sourceTree = "<group>"; };
 		E701F8431C1F76080067FDA7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E701F8451C1F76320067FDA7 /* Streams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Streams.swift; sourceTree = "<group>"; };
-		E701F8471C1F7A9D0067FDA7 /* GSearchAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSearchAPIClient.swift; sourceTree = "<group>"; };
 		E75F6ABB1C1F757C0056FB46 /* GSearchSimpleParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GSearchSimpleParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B47E651C41A4A7002C741D /* GSearchXMLAnalyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSearchXMLAnalyzer.swift; sourceTree = "<group>"; };
 		E7B47E671C41AC3B002C741D /* GSearchClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSearchClient.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				E701F8431C1F76080067FDA7 /* main.swift */,
 				E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */,
 				E701F8451C1F76320067FDA7 /* Streams.swift */,
-				E701F8471C1F7A9D0067FDA7 /* GSearchAPIClient.swift */,
 				E7BA269B1C3C653000845A6E /* Parser.swift */,
 				E7B47E651C41A4A7002C741D /* GSearchXMLAnalyzer.swift */,
 				E7B47E671C41AC3B002C741D /* GSearchClient.swift */,
@@ -155,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B47E661C41A4A7002C741D /* GSearchXMLAnalyzer.swift in Sources */,
-				E701F8481C1F7A9D0067FDA7 /* GSearchAPIClient.swift in Sources */,
 				E7B47E681C41AC3B002C741D /* GSearchClient.swift in Sources */,
 				E701F8421C1F75F90067FDA7 /* TokenScanner.swift in Sources */,
 				E7BA269C1C3C653000845A6E /* Parser.swift in Sources */,
