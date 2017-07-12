@@ -5,7 +5,7 @@
 
 ### Description
 This project is a simple, recursive-descent XML parser combined with utility to download search results from Google Search API.
-It's updated syntactically to Swift 3.2
+It's updated syntactically to Swift 3.2. It doesn't have adopted Swift 3 guidelines due to time constraints.
 It's a project I've written on my second year of Bachelor studies, so it has couple of decisions and code paths that are unnecessary from present perspective
 
 ### XML Grammar
