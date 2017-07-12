@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB30B4D71F16AD2B008734F8 /* ClosureSynchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30B4D61F16AD2B008734F8 /* ClosureSynchronizer.swift */; };
+		BB7DF6481F16AFA7008F67B5 /* Character+Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DF6471F16AFA7008F67B5 /* Character+Sets.swift */; };
 		E701F8411C1F75F90067FDA7 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F83E1C1F75F90067FDA7 /* Token.swift */; };
 		E701F8421C1F75F90067FDA7 /* TokenScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */; };
 		E701F8441C1F76080067FDA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701F8431C1F76080067FDA7 /* main.swift */; };
@@ -14,7 +16,6 @@
 		E7B47E661C41A4A7002C741D /* GSearchXMLAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B47E651C41A4A7002C741D /* GSearchXMLAnalyzer.swift */; };
 		E7B47E681C41AC3B002C741D /* GSearchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B47E671C41AC3B002C741D /* GSearchClient.swift */; };
 		E7BA269C1C3C653000845A6E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA269B1C3C653000845A6E /* Parser.swift */; };
-		E7C860561C209E9F00996544 /* file.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7C860541C209DCB00996544 /* file.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,22 +34,23 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				E7C860561C209E9F00996544 /* file.xml in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB30B4D51F16AA61008734F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB30B4D61F16AD2B008734F8 /* ClosureSynchronizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureSynchronizer.swift; sourceTree = "<group>"; };
+		BB7DF6471F16AFA7008F67B5 /* Character+Sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Sets.swift"; sourceTree = "<group>"; };
 		E701F83E1C1F75F90067FDA7 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenScanner.swift; sourceTree = "<group>"; };
 		E701F8431C1F76080067FDA7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E701F8451C1F76320067FDA7 /* Streams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Streams.swift; sourceTree = "<group>"; };
-		E75F6ABB1C1F757C0056FB46 /* GSearchSimpleParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GSearchSimpleParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75F6ABB1C1F757C0056FB46 /* SwiftXMLParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftXMLParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B47E651C41A4A7002C741D /* GSearchXMLAnalyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSearchXMLAnalyzer.swift; sourceTree = "<group>"; };
 		E7B47E671C41AC3B002C741D /* GSearchClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSearchClient.swift; sourceTree = "<group>"; };
 		E7BA269B1C3C653000845A6E /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		E7C860541C209DCB00996544 /* file.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = file.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 		E75F6AB21C1F757C0056FB46 = {
 			isa = PBXGroup;
 			children = (
-				E75F6ABD1C1F757C0056FB46 /* GSearchSimpleParser */,
+				BB30B4D51F16AA61008734F8 /* README.md */,
+				E75F6ABD1C1F757C0056FB46 /* SwiftXMLParser */,
 				E75F6ABC1C1F757C0056FB46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,32 +76,33 @@
 		E75F6ABC1C1F757C0056FB46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E75F6ABB1C1F757C0056FB46 /* GSearchSimpleParser */,
+				E75F6ABB1C1F757C0056FB46 /* SwiftXMLParser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E75F6ABD1C1F757C0056FB46 /* GSearchSimpleParser */ = {
+		E75F6ABD1C1F757C0056FB46 /* SwiftXMLParser */ = {
 			isa = PBXGroup;
 			children = (
 				E701F83E1C1F75F90067FDA7 /* Token.swift */,
-				E7C860541C209DCB00996544 /* file.xml */,
 				E701F8431C1F76080067FDA7 /* main.swift */,
 				E701F83F1C1F75F90067FDA7 /* TokenScanner.swift */,
 				E701F8451C1F76320067FDA7 /* Streams.swift */,
 				E7BA269B1C3C653000845A6E /* Parser.swift */,
 				E7B47E651C41A4A7002C741D /* GSearchXMLAnalyzer.swift */,
 				E7B47E671C41AC3B002C741D /* GSearchClient.swift */,
+				BB30B4D61F16AD2B008734F8 /* ClosureSynchronizer.swift */,
+				BB7DF6471F16AFA7008F67B5 /* Character+Sets.swift */,
 			);
-			path = GSearchSimpleParser;
+			path = SwiftXMLParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E75F6ABA1C1F757C0056FB46 /* GSearchSimpleParser */ = {
+		E75F6ABA1C1F757C0056FB46 /* SwiftXMLParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E75F6AC21C1F757C0056FB46 /* Build configuration list for PBXNativeTarget "GSearchSimpleParser" */;
+			buildConfigurationList = E75F6AC21C1F757C0056FB46 /* Build configuration list for PBXNativeTarget "SwiftXMLParser" */;
 			buildPhases = (
 				E75F6AB71C1F757C0056FB46 /* Sources */,
 				E75F6AB81C1F757C0056FB46 /* Frameworks */,
@@ -109,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = GSearchSimpleParser;
+			name = SwiftXMLParser;
 			productName = GSearchSimpleParser;
-			productReference = E75F6ABB1C1F757C0056FB46 /* GSearchSimpleParser */;
+			productReference = E75F6ABB1C1F757C0056FB46 /* SwiftXMLParser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E75F6AB61C1F757C0056FB46 /* Build configuration list for PBXProject "GSearchSimpleParser" */;
+			buildConfigurationList = E75F6AB61C1F757C0056FB46 /* Build configuration list for PBXProject "SwiftXMLParser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E75F6ABA1C1F757C0056FB46 /* GSearchSimpleParser */,
+				E75F6ABA1C1F757C0056FB46 /* SwiftXMLParser */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7DF6481F16AFA7008F67B5 /* Character+Sets.swift in Sources */,
 				E7B47E661C41A4A7002C741D /* GSearchXMLAnalyzer.swift in Sources */,
 				E7B47E681C41AC3B002C741D /* GSearchClient.swift in Sources */,
 				E701F8421C1F75F90067FDA7 /* TokenScanner.swift in Sources */,
@@ -158,6 +163,7 @@
 				E701F8411C1F75F90067FDA7 /* Token.swift in Sources */,
 				E701F8441C1F76080067FDA7 /* main.swift in Sources */,
 				E701F8461C1F76320067FDA7 /* Streams.swift in Sources */,
+				BB30B4D71F16AD2B008734F8 /* ClosureSynchronizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -255,13 +262,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E75F6AB61C1F757C0056FB46 /* Build configuration list for PBXProject "GSearchSimpleParser" */ = {
+		E75F6AB61C1F757C0056FB46 /* Build configuration list for PBXProject "SwiftXMLParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75F6AC01C1F757C0056FB46 /* Debug */,
@@ -270,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E75F6AC21C1F757C0056FB46 /* Build configuration list for PBXNativeTarget "GSearchSimpleParser" */ = {
+		E75F6AC21C1F757C0056FB46 /* Build configuration list for PBXNativeTarget "SwiftXMLParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75F6AC31C1F757C0056FB46 /* Debug */,
